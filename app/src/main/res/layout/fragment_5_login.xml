@@ -4,10 +4,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
     <TextView
+        android:id="@+id/tv01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Login"/>
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:fontFamily="@font/kmi_bold"
+        android:layout_marginTop="100dp"
+        android:text="Purple Login"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv01"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ivProfile"/>
+    <TextView
+        android:id="@+id/nickName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임"
+        android:fontFamily="@font/kmi_bold"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ivProfile"/>
+
+    <Button
+        android:id="@+id/logBtn"
+        android:layout_below="@id/nickName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/kmi_bold"
+        android:text="로그인/회원가입"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/black"/>
+    <Button
+        android:id="@+id/kakaoBtn"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/logBtn"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:text="kakao 로그인"/>
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="@font/kmi_bold"
+        android:text="Logout"
+        android:backgroundTint="@color/black"/>
+
 
 </RelativeLayout>

@@ -40,8 +40,6 @@ public class Home_Recycler03_Adapter extends RecyclerView.Adapter {
          Home_Recycler03_item item=items.get(position);
          vh.ivImg.setImageResource(Integer.parseInt(String.valueOf(item.imgUrl)));
 
-
-
     }
 
     @Override
