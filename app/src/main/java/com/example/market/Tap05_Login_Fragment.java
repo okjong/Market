@@ -32,6 +32,7 @@ public class Tap05_Login_Fragment extends Fragment {
     Button kakaoBtn;
 
     Button logBtn;
+    Button signupBtn;
     Button logOut;
 
     @Nullable
@@ -45,18 +46,29 @@ public class Tap05_Login_Fragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         logBtn = view.findViewById(R.id.logBtn);
+        signupBtn=view.findViewById(R.id.signupBtn);
 
         nickName = view.findViewById(R.id.nickName);
         ivProfile = view.findViewById(R.id.ivProfile);
         kakaoBtn = view.findViewById(R.id.kakaoBtn);
         logOut = view.findViewById(R.id.logOut);
 
-//        logBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent= new Intent(getContext(),)
-//            }
-//        });
+        logBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(getContext(),loginActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        signupBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(getContext(),SignUpActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
         kakaoBtn.setOnClickListener(new View.OnClickListener() {
             @Override

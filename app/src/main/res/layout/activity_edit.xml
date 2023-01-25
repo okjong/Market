@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kmi_bold"
+            android:text="상품 입력"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="@font/kmi_bold"
+            android:textColor="@color/purple_500"
+            android:textSize="12sp"
+            android:text="상품이름"/>
+
+        <EditText
+            android:padding="4dp"
+            android:fontFamily="@font/kmi_bold"
+            android:id="@+id/p_name01"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:hint="입력"
+            android:background="@drawable/login_bg"/>
+
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/kmi_bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/purple_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:text="상품가격"/>
+        <EditText
+            android:padding="4dp"
+            android:fontFamily="@font/kmi_bold"
+            android:id="@+id/p_price01"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:hint="입력"
+            android:background="@drawable/login_bg"/>
+        <Button
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상품이미지 선택"
+            android:layout_gravity="left"
+            android:fontFamily="@font/kmi_bold"
+            android:onClick="clickSelectImage"/>
+        <TextView
+            android:id="@+id/userNickName"
+            android:hint="사용자정보"
+            android:fontFamily="@font/kmi_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_bg"/>
+
+        <ImageView
+            android:padding="25dp"
+            android:id="@+id/p_iv01"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/image_back"
+            android:background="@drawable/login_bg"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kmi_bold"
+            android:text="게시하기"
+            android:onClick="clickComplete"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

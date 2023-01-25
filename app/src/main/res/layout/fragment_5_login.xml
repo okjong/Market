@@ -16,7 +16,7 @@
         android:textSize="25sp"
         android:fontFamily="@font/kmi_bold"
         android:layout_marginTop="100dp"
-        android:text="Purple Login"/>
+        android:text="Login"/>
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="120dp"
@@ -45,7 +45,17 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/kmi_bold"
-        android:text="로그인/회원가입"
+        android:text="로그인"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/black"/>
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_below="@id/logBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/kmi_bold"
+        android:text="회원가입"
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:backgroundTint="@color/black"/>
@@ -53,7 +63,8 @@
         android:id="@+id/kakaoBtn"
         android:layout_width="300dp"
         android:layout_height="55dp"
-        android:layout_below="@+id/logBtn"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/signupBtn"
         android:layout_centerHorizontal="true"
         android:backgroundTint="@color/black"
         android:text="kakao 로그인"/>
