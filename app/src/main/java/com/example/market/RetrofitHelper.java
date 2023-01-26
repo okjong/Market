@@ -8,7 +8,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class RetrofitHelper {
 
-    static String baseUrl="";
+    static String baseUrl="http://jeilpharm.dothome.co.kr";
 
     static Retrofit getRetrofitInstanceGson(){
         Retrofit.Builder builder= new Retrofit.Builder();

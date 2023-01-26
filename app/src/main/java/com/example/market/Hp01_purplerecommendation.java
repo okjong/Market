@@ -28,14 +28,14 @@ public class Hp01_purplerecommendation extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"김치","11500"));
-        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"양상추","1000"));
-        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"돼지고기","51500"));
-        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"미역","22500"));
-        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"김치","11500"));
-        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"양상추","1000"));
-        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"돼지고기","51500"));
-        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"미역","22500"));
+//        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"김치","11500"));
+//        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"양상추","1000"));
+//        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"돼지고기","51500"));
+//        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"미역","22500"));
+//        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"김치","11500"));
+//        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"양상추","1000"));
+//        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"돼지고기","51500"));
+//        items.add(new Home_Recycler01_item(R.drawable.kurlymarket,"미역","22500"));
 
     }
 

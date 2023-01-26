@@ -2,9 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/menu_setting"
+    <item
+        android:id="@+id/detail_chat"
+        android:title="Chat"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_chat"
+        />
+    <item android:id="@+id/detail_cart"
         android:title="SETTING"
-        android:icon="@drawable/ic_location"
+        android:icon="@drawable/ic_cart"
         app:showAsAction="always"
         />
 </menu>
